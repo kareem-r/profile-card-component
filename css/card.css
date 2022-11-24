@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(185deg 71% 43%);
+    overflow: hidden;
+    height: 100vh;
+    font-family:Kumbh Sans;
+}
+.card{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+border-radius: 15px;
+}
+.card .container .img img{
+    width: 400px;
+    overflow: hidden;
+}
+.card .circle
+{
+    width: 100px;
+    height: 100px;
+    background-color:white;
+    border-radius: 50%;
+    z-index: 1;
+    position: relative;
+    left: 150px;
+    top: -40px;
+}
+.card .container .img .victor{
+    width:85px ;
+    height: 85px;
+    border-radius: 50%;
+    position: relative;
+    left: 158px;
+    z-index: 1;
+top: -135px;
+}
+.card .container .img p{
+    position: relative;
+    left: 150px;
+    top: -110px;
+    font-weight: bold;
+
+}
+.card .container .img p span{
+    color: hsl(0, 0%, 59%) ;
+    font-weight: normal;
+}
+.card .container .img .lon{
+    color: hsl(0, 0%, 59%) ;
+    font-weight: normal;
+    position: relative;
+    top: -100px;
+    left: 180px;
+}
+hr{position:relative;
+top: -80px;}
+.card .container .text div{
+    position: relative;
+    top: -70px;
+    display: flex;
+    padding-top: 20px ;
+    padding-left: 90px;
+
+}
+.card .container .text div span {
+    font-weight: bold;
+    margin-right: 30px;
+    color: black;
+    
+    
+
+}
+
+
+.card .container .text div span span{
+    font-size: 10px;
+     color:hsl(0, 0%, 59%);
+    letter-spacing:1.5px;
+}
+#fo{
+    margin-left: -13px;
+}
+#li{margin-left: 5px;}
+#ph{margin-left: -4px;}
+
+@media (max-width: 768px){
+    body{
+        height: auto;
+    }
+    .card{
+
+    position: relative;
+    top: 650px;
+    left: 95%;
+    transform: translate(-50%, -50%);}
+}
+
+
+
